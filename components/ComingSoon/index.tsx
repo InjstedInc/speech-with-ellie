@@ -7,7 +7,6 @@ export default function ComingSoon() {
         >
             <div className="bg-gray-900 bg-opacity-75 p-10 rounded-lg">
                 <h1 className="text-4xl font-bold">Coming Soon!</h1>
-                <p className="mt-4 text-xl">We are working hard to bring you a great experience.</p>
             </div>
         </div>
     );
