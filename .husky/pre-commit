@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Run linter and formatter
+pnpm run lint
+pnpm run format
