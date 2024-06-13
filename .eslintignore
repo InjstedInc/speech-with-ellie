@@ -1,0 +1,4 @@
+# .eslintignore
+
+# Ignore the entire generated directory
+src/generated/
