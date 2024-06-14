@@ -9,7 +9,7 @@
     "format": "prettier --write .",
     "lint": "next lint ",
     "prepare": "husky install",
-    "contentful:codegen": "cf-content-types-generator -s ${NEXT_PUBLIC_CONTENTFUL_SPACE_ID}  -t ${NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN} -o ./src/generated -d -g -X",
+    "contentful:codegen": "cf-content-types-generator -s ${NEXT_PUBLIC_CONTENTFUL_SPACE_ID}  -t ${CONTENTFUL_ACCESS_TOKEN} -o ./src/generated -d -g -X",
     "clean": "rimraf ./src/generated",
     "commitlint": "commitlint --edit"
   },
