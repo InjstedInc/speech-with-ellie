@@ -2,3 +2,7 @@
 
 # Ignore the entire generated directory
 src/generated/
+
+# Ignore yml and md files
+*.yml
+*.md
