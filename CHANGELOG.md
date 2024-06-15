@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.0.0...v1.1.0) (2024-06-15)
+
+
+### Features
+
+* added code scan upload to github code scanning ([d54797b](https://github.com/InjstedInc/speech-with-ellie/commit/d54797b1e1a51e94b5523505f737d3b361c51210))
+* adding snyk test github action ([#2](https://github.com/InjstedInc/speech-with-ellie/issues/2)) ([d54797b](https://github.com/InjstedInc/speech-with-ellie/commit/d54797b1e1a51e94b5523505f737d3b361c51210))
+
 ## 1.0.0 (2024-06-14)
 
 
