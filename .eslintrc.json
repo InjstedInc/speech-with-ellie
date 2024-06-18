@@ -21,7 +21,8 @@
     "react/react-in-jsx-scope": "off", // Not necessary with Next.js since React 17
     "react/prop-types": "off", // Not necessary in a TypeScript project
     "no-console": ["warn", { "allow": ["warn", "error"] }], // Warns against console logs but allows warn and error
-    "no-unused-vars": "off",
+    "no-unused-vars": "off", // Off because of @typescript-eslint/no-unused-vars
+    "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-unused-vars": [
       "error",
       { "argsIgnorePattern": "^_" }
