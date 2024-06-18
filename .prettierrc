@@ -5,5 +5,14 @@
   "tabWidth": 2,
   "useTabs": false,
   "jsxSingleQuote": true,
-  "printWidth": 80
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": {
+        "singleQuote": false,
+        "tabWidth": 2
+      }
+    }
+  ]
 }
