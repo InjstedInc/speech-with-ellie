@@ -43,6 +43,28 @@
           }
         ]
       }
+    },
+    {
+      "files": ["*.md"],
+      "rules": {
+        "prettier/prettier": [
+          "error",
+          {
+            "proseWrap": "always"
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.yml"],
+      "rules": {
+        "prettier/prettier": [
+          "error",
+          {
+            "tabWidth": 2
+          }
+        ]
+      }
     }
   ],
   "settings": {
