@@ -15,7 +15,9 @@ const DesktopNavbarItems: React.FC<NavbarItemsProps> = ({ navbarItems }) => {
 
   const getNavLinks = (items: NavbarItem[]) => {
     return items.map((item) => {
-      const isActive = pathname === item.urlPath
+      const isActive =
+        pathname === item.urlPath ||
+        item.children?.some((child) => child.urlPath === pathname)
 
       if (item.children) {
         return (
