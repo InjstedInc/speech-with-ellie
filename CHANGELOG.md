@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/InjstedInc/speech-with-ellie/compare/v1.1.0...v1.1.1) (2024-06-20)
+
+
+### Bug Fixes
+
+* adding failure step in case release did not work ([#6](https://github.com/InjstedInc/speech-with-ellie/issues/6)) ([6737f45](https://github.com/InjstedInc/speech-with-ellie/commit/6737f450044eedf3237cf8f3f015814d39990981))
+
 ## [1.1.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.0.0...v1.1.0) (2024-06-15)
 
 ### Features
