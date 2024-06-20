@@ -32,3 +32,9 @@ jobs:
         with:
           release-type: node
           token: ${{ secrets.ACTIONS_TOKEN }}
+
+      - name: Check for Release PR
+        if: ${{ steps.release_please.outcome == 'failure' }}
+        run: |
+          echo "No release PR created"
+          exit 1
