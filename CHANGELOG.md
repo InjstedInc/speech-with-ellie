@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.2.0...v1.3.0) (2024-06-21)
+
+
+### Features
+
+* adding landing page ([#10](https://github.com/InjstedInc/speech-with-ellie/issues/10)) ([f086d0d](https://github.com/InjstedInc/speech-with-ellie/commit/f086d0d2466b8424ea3f58667532221ed4bf760f))
+
 ## [1.2.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.1.1...v1.2.0) (2024-06-21)
 
 
