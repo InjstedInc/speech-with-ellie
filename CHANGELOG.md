@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.4.0...v1.5.0) (2024-06-21)
+
+
+### Features
+
+* swe 9 adding about page ([#14](https://github.com/InjstedInc/speech-with-ellie/issues/14)) ([193a565](https://github.com/InjstedInc/speech-with-ellie/commit/193a565d6c3d35dde181ac49e3baa32f598ffd12))
+
 ## [1.4.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.3.0...v1.4.0) (2024-06-21)
 
 
