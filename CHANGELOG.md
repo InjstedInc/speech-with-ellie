@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.1.1...v1.2.0) (2024-06-21)
+
+
+### Features
+
+* adding footer with instagram link ([#8](https://github.com/InjstedInc/speech-with-ellie/issues/8)) ([5523c30](https://github.com/InjstedInc/speech-with-ellie/commit/5523c30ba8f78133412ef80997a383548066b89a))
+
 ## [1.1.1](https://github.com/InjstedInc/speech-with-ellie/compare/v1.1.0...v1.1.1) (2024-06-20)
 
 
