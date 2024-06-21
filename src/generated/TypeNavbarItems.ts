@@ -15,6 +15,12 @@ import type { TypeNavbarItemSkeleton } from './TypeNavbarItem'
  */
 export interface TypeNavbarItemsFields {
   /**
+   * Field type definition for field 'name' (Name)
+   * @name Name
+   * @localized false
+   */
+  name?: EntryFieldTypes.Symbol
+  /**
    * Field type definition for field 'items' (items)
    * @name items
    * @localized false
@@ -30,7 +36,7 @@ export interface TypeNavbarItemsFields {
  * @type {TypeNavbarItemsSkeleton}
  * @author 5OiXEZczrkwNqDxdGbbo5o
  * @since 2024-06-18T19:45:32.321Z
- * @version 1
+ * @version 5
  */
 export type TypeNavbarItemsSkeleton = EntrySkeletonType<
   TypeNavbarItemsFields,
@@ -42,7 +48,7 @@ export type TypeNavbarItemsSkeleton = EntrySkeletonType<
  * @type {TypeNavbarItems}
  * @author 5OiXEZczrkwNqDxdGbbo5o
  * @since 2024-06-18T19:45:32.321Z
- * @version 1
+ * @version 5
  */
 export type TypeNavbarItems<
   Modifiers extends ChainModifiers,

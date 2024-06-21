@@ -41,6 +41,7 @@ const config: Config = {
         brand: {
           blue: '#0344a5',
           lightblue: '#d1e3fb',
+          blueish: '#043780',
         },
       },
     },

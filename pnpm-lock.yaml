@@ -13,6 +13,12 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.2.2
         version: 19.2.2
+      '@contentful/rich-text-react-renderer':
+        specifier: ^15.21.2
+        version: 15.21.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@contentful/rich-text-types':
+        specifier: ^16.5.2
+        version: 16.5.2
       '@headlessui/react':
         specifier: ^2.0.4
         version: 2.0.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -255,6 +261,16 @@ packages:
       {
         integrity: sha512-Ui14m5QvgFWteAXsv5pmFtbm2deGUJrn1WPHoBa79SK3Z3nV47wQb3/aDZhnXushgpJlk2HmH32Fda/0XZqq1w==,
       }
+
+  '@contentful/rich-text-react-renderer@15.21.2':
+    resolution:
+      {
+        integrity: sha512-4JhqntPTVUyCisvA9KskQcrOQrhmohX0VfDWgc79USJFdp+ZF44Zqxt68xgIIOv/H/qkE2UVsNzO1kinpenHQA==,
+      }
+    engines: { node: '>=6.0.0' }
+    peerDependencies:
+      react: ^16.8.6 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.6 || ^17.0.0 || ^18.0.0
 
   '@contentful/rich-text-types@16.5.2':
     resolution:
@@ -5563,6 +5579,12 @@ snapshots:
     dependencies:
       '@vercel/stega': 0.1.2
       json-pointer: 0.6.2
+
+  '@contentful/rich-text-react-renderer@15.21.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@contentful/rich-text-types': 16.5.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
   '@contentful/rich-text-types@16.5.2': {}
 
