@@ -1,3 +1,9 @@
+export { isTypeFaqPage } from './TypeFaqPage'
+export type {
+  TypeFaqPage,
+  TypeFaqPageFields,
+  TypeFaqPageSkeleton,
+} from './TypeFaqPage'
 export { isTypeLandingPage } from './TypeLandingPage'
 export type {
   TypeLandingPage,
@@ -16,9 +22,9 @@ export type {
   TypeNavbarItemsFields,
   TypeNavbarItemsSkeleton,
 } from './TypeNavbarItems'
-export { isTypeNavbarMenu } from './TypeNavbarMenu'
+export { isTypeQuestion } from './TypeQuestion'
 export type {
-  TypeNavbarMenu,
-  TypeNavbarMenuFields,
-  TypeNavbarMenuSkeleton,
-} from './TypeNavbarMenu'
+  TypeQuestion,
+  TypeQuestionFields,
+  TypeQuestionSkeleton,
+} from './TypeQuestion'
