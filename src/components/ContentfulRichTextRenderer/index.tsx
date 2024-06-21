@@ -7,16 +7,24 @@ import {
 
 interface ContentfulRichTextRendererProps {
   richTextDocument: Document
+  className?: string
 }
 import Image from 'next/image'
 
 const ContentfulRichTextRenderer: React.FC<ContentfulRichTextRendererProps> = ({
   richTextDocument,
+  className,
 }) => {
   const options: Options = {
     renderNode: {
       [BLOCKS.PARAGRAPH]: (_, children) => (
-        <p className='mt-6 text-lg leading-8 text-text-primary'>{children}</p>
+        <p
+          className={
+            className ? className : 'mt-6 text-lg leading-8 text-text-primary'
+          }
+        >
+          {children}
+        </p>
       ),
       [BLOCKS.HEADING_1]: (_, children) => (
         <h1 className='text-4xl md:text-6xl font-bold my-4'>{children}</h1>

@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
         </div>
         <div className='mt-8 md:order-1 md:mt-0'>
           <p className='text-center text-xs leading-5 text-gray-500'>
-            &copy; {new Date().getFullYear()} Speech with Ellie. All rights
+            &copy; {new Date().getFullYear()} Speech with Ellie PLLC. All rights
             reserved. Created by<a href={'https://injsted.io/'}> Injsted LLC</a>
           </p>
         </div>
