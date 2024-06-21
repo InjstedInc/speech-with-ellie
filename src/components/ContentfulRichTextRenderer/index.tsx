@@ -18,13 +18,7 @@ const ContentfulRichTextRenderer: React.FC<ContentfulRichTextRendererProps> = ({
   const options: Options = {
     renderNode: {
       [BLOCKS.PARAGRAPH]: (_, children) => (
-        <p
-          className={
-            className ? className : 'mt-6 text-lg leading-8 text-text-primary'
-          }
-        >
-          {children}
-        </p>
+        <p className={className ? className : ''}>{children}</p>
       ),
       [BLOCKS.HEADING_1]: (_, children) => (
         <h1 className='text-4xl md:text-6xl font-bold my-4'>{children}</h1>
@@ -39,19 +33,23 @@ const ContentfulRichTextRenderer: React.FC<ContentfulRichTextRendererProps> = ({
         <h4 className='text-2xl md:text-3xl font-semibold my-2'>{children}</h4>
       ),
       [BLOCKS.HEADING_5]: (_, children) => (
-        <h5 className='text-xl md:text-2xl font-semibold my-2'>{children}</h5>
+        <h5 className='mt-6 text-xl leading-8 font-medium text-text-primary'>
+          {children}
+        </h5>
       ),
       [BLOCKS.HEADING_6]: (_, children) => (
         <h6 className='text-lg md:text-xl font-semibold my-2'>{children}</h6>
       ),
       [BLOCKS.UL_LIST]: (_, children) => (
-        <ul className='list-disc list-inside my-4'>{children}</ul>
+        <ul role='list' className='mt-3 space-y-3 text-text-secondary'>
+          {children}
+        </ul>
       ),
       [BLOCKS.OL_LIST]: (_, children) => (
         <ol className='list-decimal list-inside my-4'>{children}</ol>
       ),
       [BLOCKS.LIST_ITEM]: (_, children) => (
-        <li className='mb-2 ml-4'>{children}</li>
+        <li className='flex gap-x-3'>{children}</li>
       ),
       [BLOCKS.QUOTE]: (_, children) => (
         <blockquote className='italic border-l-4 border-gray-500 pl-4 my-4'>
@@ -96,9 +94,10 @@ const ContentfulRichTextRenderer: React.FC<ContentfulRichTextRendererProps> = ({
   }
 
   return (
-    <article className='prose lg:prose-lg max-w-none text-left'>
-      {documentToReactComponents(richTextDocument, options)}
-    </article>
+    // <article className='prose lg:prose-lg max-w-none text-left'>
+    //   {documentToReactComponents(richTextDocument, options)}
+    // </article>
+    <>{documentToReactComponents(richTextDocument, options)}</>
   )
 }
 
