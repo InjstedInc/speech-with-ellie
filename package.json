@@ -16,6 +16,8 @@
   "dependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@contentful/rich-text-react-renderer": "^15.21.2",
+    "@contentful/rich-text-types": "^16.5.2",
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^2.1.4",
     "cf-content-types-generator": "^2.15.3",
