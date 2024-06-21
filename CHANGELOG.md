@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.3.0...v1.4.0) (2024-06-21)
+
+
+### Features
+
+* adding footer to website ([#12](https://github.com/InjstedInc/speech-with-ellie/issues/12)) ([d0c2fa7](https://github.com/InjstedInc/speech-with-ellie/commit/d0c2fa73191643750465b0569d8c12fce12d2f01))
+
 ## [1.3.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.2.0...v1.3.0) (2024-06-21)
 
 
