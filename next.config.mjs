@@ -4,10 +4,10 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.ctfassets.net'
-      }
-    ]
-  }
+        hostname: 'images.ctfassets.net',
+      },
+    ],
+  },
 }
 
 export default nextConfig

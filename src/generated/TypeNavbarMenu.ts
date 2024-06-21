@@ -1,4 +1,10 @@
-import type { ChainModifiers, Entry, EntryFieldTypes, EntrySkeletonType, LocaleCode } from "contentful";
+import type {
+  ChainModifiers,
+  Entry,
+  EntryFieldTypes,
+  EntrySkeletonType,
+  LocaleCode,
+} from 'contentful'
 
 /**
  * Fields type definition for content type 'TypeNavbarMenu'
@@ -7,12 +13,12 @@ import type { ChainModifiers, Entry, EntryFieldTypes, EntrySkeletonType, LocaleC
  * @memberof TypeNavbarMenu
  */
 export interface TypeNavbarMenuFields {
-    /**
-     * Field type definition for field 'title' (Title)
-     * @name Title
-     * @localized false
-     */
-    title?: EntryFieldTypes.Array<EntryFieldTypes.Symbol>;
+  /**
+   * Field type definition for field 'title' (Title)
+   * @name Title
+   * @localized false
+   */
+  title?: EntryFieldTypes.Array<EntryFieldTypes.Symbol>
 }
 
 /**
@@ -23,7 +29,10 @@ export interface TypeNavbarMenuFields {
  * @since 2024-06-19T00:21:43.542Z
  * @version 1
  */
-export type TypeNavbarMenuSkeleton = EntrySkeletonType<TypeNavbarMenuFields, "navbarMenu">;
+export type TypeNavbarMenuSkeleton = EntrySkeletonType<
+  TypeNavbarMenuFields,
+  'navbarMenu'
+>
 /**
  * Entry type definition for content type 'navbarMenu' (Navbar Menu)
  * @name TypeNavbarMenu
@@ -32,8 +41,16 @@ export type TypeNavbarMenuSkeleton = EntrySkeletonType<TypeNavbarMenuFields, "na
  * @since 2024-06-19T00:21:43.542Z
  * @version 1
  */
-export type TypeNavbarMenu<Modifiers extends ChainModifiers, Locales extends LocaleCode = LocaleCode> = Entry<TypeNavbarMenuSkeleton, Modifiers, Locales>;
+export type TypeNavbarMenu<
+  Modifiers extends ChainModifiers,
+  Locales extends LocaleCode = LocaleCode,
+> = Entry<TypeNavbarMenuSkeleton, Modifiers, Locales>
 
-export function isTypeNavbarMenu<Modifiers extends ChainModifiers, Locales extends LocaleCode>(entry: Entry<EntrySkeletonType, Modifiers, Locales>): entry is TypeNavbarMenu<Modifiers, Locales> {
-    return entry.sys.contentType.sys.id === 'navbarMenu'
+export function isTypeNavbarMenu<
+  Modifiers extends ChainModifiers,
+  Locales extends LocaleCode,
+>(
+  entry: Entry<EntrySkeletonType, Modifiers, Locales>,
+): entry is TypeNavbarMenu<Modifiers, Locales> {
+  return entry.sys.contentType.sys.id === 'navbarMenu'
 }
