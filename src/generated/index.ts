@@ -1,3 +1,9 @@
+export { isTypeAboutPage } from './TypeAboutPage'
+export type {
+  TypeAboutPage,
+  TypeAboutPageFields,
+  TypeAboutPageSkeleton,
+} from './TypeAboutPage'
 export { isTypeFaqPage } from './TypeFaqPage'
 export type {
   TypeFaqPage,
