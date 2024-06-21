@@ -7,6 +7,7 @@ import { TypeNavbarItemSkeleton } from '@/src/generated'
 import React from 'react'
 import { NavbarItem } from '@/src/components/Navbar/types'
 import { inter } from '@/src/app/fonts'
+import Footer from '@/src/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Speech with Ellie',
@@ -41,6 +42,7 @@ export default async function RootLayout({
         <div className='container mx-auto'>
           <NavigationBar navbarItems={navbarItems} />
           {children}
+          <Footer />
         </div>
       </body>
     </html>
