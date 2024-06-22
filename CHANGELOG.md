@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.5.0...v1.6.0) (2024-06-22)
+
+
+### Features
+
+* adding services page with contentful hook ([#16](https://github.com/InjstedInc/speech-with-ellie/issues/16)) ([c184146](https://github.com/InjstedInc/speech-with-ellie/commit/c1841460f974303bc45343daa7a38209116bbecc))
+
 ## [1.5.0](https://github.com/InjstedInc/speech-with-ellie/compare/v1.4.0...v1.5.0) (2024-06-21)
 
 
