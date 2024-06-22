@@ -28,7 +28,7 @@ const AboutHero: React.FC<AboutHeroProps> = ({
               <h1 className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
                 {name}
               </h1>
-              <p className='text-base font-semibold leading-7 text-indigo-600'>
+              <p className='text-base font-semibold leading-7 text-brand-blue'>
                 {title}
               </p>
             </div>

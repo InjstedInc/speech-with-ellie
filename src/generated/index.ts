@@ -34,3 +34,15 @@ export type {
   TypeQuestionFields,
   TypeQuestionSkeleton,
 } from './TypeQuestion'
+export { isTypeService } from './TypeService'
+export type {
+  TypeService,
+  TypeServiceFields,
+  TypeServiceSkeleton,
+} from './TypeService'
+export { isTypeServicesPage } from './TypeServicesPage'
+export type {
+  TypeServicesPage,
+  TypeServicesPageFields,
+  TypeServicesPageSkeleton,
+} from './TypeServicesPage'
