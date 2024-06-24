@@ -26,7 +26,10 @@ const Hero: React.FC<HeroProps> = ({
               <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
                 {headerMessage}
               </h1>
-              <ContentfulRichTextRenderer richTextDocument={shortBio} />
+              <ContentfulRichTextRenderer
+                richTextDocument={shortBio}
+                className='mt-2 text-base leading-7 text-text-secondary'
+              />
               <div className='mt-10 flex items-center gap-x-6'>
                 <Link
                   href='#'

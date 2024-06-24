@@ -33,7 +33,7 @@ const ContentfulRichTextRenderer: React.FC<ContentfulRichTextRendererProps> = ({
         <h4 className='text-2xl md:text-3xl font-semibold my-2'>{children}</h4>
       ),
       [BLOCKS.HEADING_5]: (_, children) => (
-        <h5 className='mt-6 text-xl leading-8 font-medium text-text-primary'>
+        <h5 className='mt-6 text-base font-semibold leading-7 text-text-primary'>
           {children}
         </h5>
       ),
@@ -41,7 +41,10 @@ const ContentfulRichTextRenderer: React.FC<ContentfulRichTextRendererProps> = ({
         <h6 className='text-lg md:text-xl font-semibold my-2'>{children}</h6>
       ),
       [BLOCKS.UL_LIST]: (_, children) => (
-        <ul role='list' className='mt-3 space-y-3 text-text-secondary'>
+        <ul
+          role='list'
+          className='mt-3 text-base leading-7 text-text-secondary'
+        >
           {children}
         </ul>
       ),
